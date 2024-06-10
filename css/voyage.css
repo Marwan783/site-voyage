@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	/* vertical-align: baseline; */
+    /* box-sizing: border-box; */
+}
+
+header{
+    background: linear-gradient(rgb(177, 236, 226), rgb(36, 211, 170));
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 15px;
+    height: 100px;
+    text-indent: 1em;    
+}
+
+
+.logo_texte{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 50px;
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+}
+
+.texte_droit a{
+    padding: 10px;
+    color: white;
+ }
+
+ .navbar{
+    background: linear-gradient(rgb(177, 236, 226), rgb(36, 211, 170));
+    color: white;
+    text-align: right;
+    height: 40px;
+ }
+
+
+.Japon{
+    background: linear-gradient(to bottom, rgb(87, 76, 247),rgb(238, 74, 211));
+    border-radius: 5%;
+    /* width: 85%; */
+    display: flex;    
+}
+
+
+.img_japon{
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;  
+ }
+ 
+.Thailand{
+    background: linear-gradient(to top, rgb(35, 140, 201),rgb(40, 231, 183));
+    border-radius: 5%;
+    /* width: 85%; */
+    display: flex;
+   
+}
+
+.img_thailand{
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;    
+ }
+
+ .Inde{
+    background: linear-gradient(to top, rgb(35, 140, 201),rgb(40, 231, 183));
+    border-radius: 5%;
+    width: 85%;
+    display: flex;
+   
+}
+
+.img_inde{
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;    
+ }
+ 
+
+main{
+   width: 70%;
+}

@@ -1,0 +1,106 @@
+header{
+    background: linear-gradient(rgb(177, 236, 226), rgb(36, 211, 170));
+    margin: 0;
+    padding: 15px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.oiseau{
+    width: 40%;
+}
+
+nav p{
+    padding-left: 30px;
+}
+
+
+.titre{
+    display: flex;
+}
+
+.navbar{
+    display: flex;
+    height: 70px;
+    }
+
+.navbar1{
+    background: linear-gradient(rgb(177, 236, 226), rgb(36, 211, 170));
+    color:white;
+    text-align: left;
+    height: 40px;
+}  
+
+.japon{
+    width: 280px;
+    border-radius: 50%;
+    height: 280px;
+    margin-left: 90px;
+    margin-top: 30px;
+}
+ 
+section{
+    display: flex;
+    padding: 8px;
+    margin: 0 auto;
+    width: 70%;
+    flex-direction: column;
+}
+
+.zone1{
+    background: linear-gradient(to top, rgb(97, 155, 189),rgb(204, 116, 165));
+    display: flex;
+    color: white;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.texte1{
+    padding: 1px;
+    margin: 50px;
+}
+.zone2{
+    background: linear-gradient(to top, rgb(4, 202, 252),rgb(0, 240, 168));
+    display: flex;
+    color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.zone2{
+    flex-direction: column;
+}
+.plage{
+    width: 200px;
+    /* height: 200px; */
+    margin-left: 40px;
+}
+
+.zone3{
+    background: linear-gradient(to top, rgb(252, 165, 4),rgb(54, 136, 230));
+    display: flex;
+    color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.desert{
+    border-radius: 50%;
+    height:280px;
+    width: 280px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+footer{
+    background: linear-gradient(to top, rgb(4, 202, 252),rgb(0, 240, 168));
+    color: white;
+    height: 70px;
+    padding: 25px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
